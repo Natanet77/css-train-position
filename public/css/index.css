@@ -26,15 +26,27 @@
 .task4 .item {
   position: sticky;
   left: calc(50% - 40px);
+  bottom: 300px;
 }
 
 .task5 .item1 {
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  left: 20px;
   background-color: red;
 }
 .task5 .item2 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
 }
 
 .task5 .item3 {
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0;
   background-color: green;
 }
 
@@ -47,23 +59,33 @@
 }
 
 .task8 .item1 {
+  float: left;
 }
+
 .task8 .item2 {
   height: 120px;
+  float: right;
 }
 
 .task8 p {
+  clear: both;
 }
 
 .task9 .item1 {
+  float: left;
   height: 200px;
 }
+
 .task9 .item2 {
+  float: right;
 }
+
 .task9 p {
+  clear: right;
 }
 
 .task10 .item1 {
+  height: 200px;
   float: right;
 }
 .task10 .item2 {
